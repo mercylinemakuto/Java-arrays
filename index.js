@@ -25,16 +25,16 @@ console.log({duplicated});
 
 //Search word in the array(food)
 let arr5 = ["the", "way", "x", 4];
-let x ="food"
+let x ="food";
 let searched = arr5.includes(x) ? x : "the search word not found";
 console.log({searched});
 
 //Sort String
-let word = "renniw"
+let word = "renniw";
 let sortString = word.split('').sort().join('');
 console.log(sortString);
 
 //Insert Tomato
 let fruits = ["Jungle fruit", "Strawberrries", "Wild berries", "Kiwi", "Pears", "Beetruits", "Cherries", "Pawpaws", "Grapes", "Lemons"];
 fruits.splice(5, 0, "Tomato");
-console.log(fruits)
+console.log(fruits);
